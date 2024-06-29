@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.header {
+    position: absolute;
+    top: 22px;
+    font-size: small;
+    right: 165px;
+}
+
+.header a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #1a0dab;
+}
+
+.logo img {
+    width: 272px;
+    height: 92px;
+    margin-top: 50px;
+}
+
+.search-bar {
+    margin-top: 40px;
+
+}
+
+.search-input {
+    display:relative;
+    position: absolute;
+    width: 630px;
+    padding: 10px;
+    right:27%;
+    top:37%;
+    padding-left: 4%;
+    font-size: 16px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    outline: none;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 10px;
+    position: absolute;
+    top:45%;
+    right:39%;
+    margin: 5px;
+    background-color:#dfe1e5;
+    color:#0f0e0e;
+    
+    cursor: pointer; 
+    font-size: 14px;
+}
+
+
+button:hover {
+    background-color: #dcd7d7;
+    border: 1px solid #e8e8e8;
+    
+}
+h1{
+    font-size:1em;
+    font-weight: 500;
+    position: absolute;
+    bottom:39.4%;
+    left:34.5%;
+}
+h3{
+    position: absolute;
+    right:28%;
+    top:35%;
+}
+h2{
+    font-size:small;
+    position: absolute;
+    right:30.5%;
+    top:55%;
+}
+h4{
+    position: absolute;
+    bottom:-130%;
+    left:120%;
+}
+h5{
+    position: absolute;
+    right:70%;
+    top:35%;
+
+}
+h6{
+    position: absolute;
+    top:-2.7%;
+    width:70%;
+    right:-25%;
+
+        
+        
+
+}
+h7{
+    position: absolute;
+    top:45%;
+    left:7%;
+    background-color: #2608d0;
+    width:70%;
+
+}
